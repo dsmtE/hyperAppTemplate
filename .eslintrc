@@ -25,6 +25,7 @@
     "eqeqeq": ["warn", "always"],
     "space-infix-ops": "warn",
     "comma-spacing": ["warn", { "before": false, "after": true }],
-    "brace-style": ["warn", "1tbs", { "allowSingleLine": true }]
+    "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+    "prefer-const": "warn"
   }
 }

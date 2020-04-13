@@ -16,15 +16,14 @@ export default (props) =>
                             label: props.title || 'default title',
                             data: props.data
                         }]
-                    }
+                    },
+                    responsive: true
                 })
+                c.canvas.style.height = props.height + 'px'
+                c.canvas.style.width = props.width + 'px'
                 // si une fonction de callback est passé en parametre de mes props alors je l'exécute
                 if(props.callBack !== undefined) { props.callBack(c) }
             },
-            onChange: (element) => {console.log(element)},
-
-            width: props.width,
-            height: props.height,
             style: 'background-color: #fff;'
         })
     ])
