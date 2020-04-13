@@ -17,9 +17,14 @@
     "no-unreachable": "warn",
     "no-trailing-spaces": "warn",
     "eol-last": "warn",
-    "quotes": ["warn", "single"],
+    "quotes": ["warn", "single", {"avoidEscape": true}],
     "valid-typeof": "warn",
-    "indent": ["warn", 4]
-  
+    "indent": ["warn", 4],
+    "semi": ["warn", "never"],
+    "no-var": "warn",
+    "eqeqeq": ["warn", "always"],
+    "space-infix-ops": "warn",
+    "comma-spacing": ["warn", { "before": false, "after": true }],
+    "brace-style": ["warn", "1tbs", { "allowSingleLine": true }]
   }
 }

@@ -1,8 +1,8 @@
 # hyperApp template for IMACs students
 
-Hello cher IMAC, j'espère que tu vas bien en ce temps difficile de confinement ^^
+Hello cher IMAC, j'espère que tu vas bien en ce temps difficile de confinement :heart:
 
-Au vu des difficultés des TPs et de la presentation de hyperApp j'ai décidé de te faire un beau template que voici pour simplifier le démarrage des projets dashboard avec hyperApp.
+Au vu des difficultés des TPs et de la présentation de hyperApp j'ai décidé de te faire un beau template que voici pour simplifier le démarrage des projets dashboard avec hyperApp.
 
 # Mise en place
 
@@ -29,11 +29,11 @@ Ce template est configuré pour se servir de différents modules (axios, hyperAp
 Il dispose :
 - d'un serveur intégré pour pouvoir travailler facilement
 - de Babel, un module pour gérer la retro compatibilité avec les vieux navigateurs
-- d'un linter, **tu sais le truc chiant qui vérifie que tu écris bien** (pas comme moi en train d'écrire ce markdown à 1h du mat pour les IMACs x) )
-  > Je le laisse car c'est bien et formateur de suivre des conventions et de se forcer à écrire du code lisible mais je suis gentil car la configuration est **souple** (que des warning pas de blocage majeur en géneral donc on peut avancer même si on écrit mal)
+- d'un linter, **tu sais le truc chiant qui vérifie que tu écris bien** (pas comme moi en train d'écrire ce markdown à 1h du mat pour les IMACs :satisfied: )
+  > Je le laisse car c'est bien et formateur de suivre des conventions et de se forcer à écrire du code lisible mais je suis gentil car la configuration est **souple** (que des warnings pas de blocage majeur en géneral donc on peut avancer même si on écrit mal)
 
-  > si besoin envoi un MP je te monterai comment le désactiver ^^
-- et enfin de la gestion du Sass (**Syntactically Awesome Style Sheets**) Oui vraiment et c'est génial, tu pourra utiliser des variables dans du css (Tu peux cependant utiliser du css classique aussi ça marche) ^^
+  > si besoin envoie un MP je te monterai comment les changer, tu peux avoir des préférences comme l'indentation avec 2 espaces au lieu de 4 ou même si tu veux tout  désactiver ^^
+- et enfin de la gestion du Sass (**Syntactically Awesome Style Sheets**) Oui vraiment et c'est génial, tu pourras utiliser des variables dans du css :heart_eyes: (Tu peux cependant utiliser du css classique aussi ça marche) 
     ```scss
     $titleColor: #db7500;
 
@@ -97,8 +97,9 @@ getIpFromApi: () => (state, actions) => {
   }
 ```
 
-- un composant personnalisé utilisant la librairie chart.Js pour afficher des données sous forme d'un diagramme en barres
-Celui là est un peu plus complexe mais dans les grandes lignes c'est facile :
+- un composant personnalisé utilisant la librairie chart.Js pour afficher des données sous forme d'un diagramme en barres :sunglasses:
+
+  Celui là est un peu plus complexe mais dans les grandes lignes c'est facile :
     ```js
     export default (props) =>
         h('div', {}, [
@@ -180,7 +181,7 @@ parseEspaceVertsData: list => state => {
     }
 ```
 
-Si tu ne comprends pas la fonction reduce c'est pas grave c'est un peu complexe... mais pour faire plus simple on pourrait faire sans comme cela :
+Si tu ne comprends pas la fonction reduce c'est pas grave c'est un peu complexe... :confused: mais pour faire plus simple on pourrait faire sans comme cela :
 ```js
 const categoriesCount = {} // on defini un objet vide qui va contenir des clés ( nos catégories) associés à une valeurs ( la quantité dans cette catégorie)
 
@@ -196,8 +197,6 @@ categories.foreach( categorie => { // pour chaque élément de la liste des cat�
 ```
 
 
-## J'espère avoir pu te donné des pistes et une base pour t'aider à démarrer ;)
+### J'espère avoir pu te donné des pistes et une base pour t'aider à démarrer :ok_hand:
 
-## N'hésite pas m'envoyer un MP si tu as des questions, j'y répondrai avec plaisir ^^ 
-
-## maintenant c'est l'heure de dormir pour moi :)
+### N'hésite pas m'envoyer un MP si tu as des questions, j'y répondrai avec plaisir :smiley:

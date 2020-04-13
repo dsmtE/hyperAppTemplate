@@ -39,8 +39,8 @@ export default {
         // à l'aide de la fonction reduce (https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/reduce)
         // je compte le nombre d'éléments dans chaque catégories
         const categoriesCount = categories.reduce((obj, value) => {
-            obj[value] = (obj[value] || 0) + 1;
-            return obj;
+            obj[value] = (obj[value] || 0) + 1
+            return obj
         }, {})
         return {
             ...state,
