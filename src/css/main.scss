@@ -1,0 +1,47 @@
+$titleColor: #db7500;
+$textColor: #28b1d3;
+$black: #1b2642;
+body {
+	padding: 0; 
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: $black;
+	display: flex;
+	color: $textColor;
+}
+
+h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 2em;
+	color: $titleColor;
+	transform: translateX(10px);
+}
+
+button {
+	background: $black;
+	color: $textColor;
+	border-radius: 5px;
+	border: 1px solid $textColor;
+	font-size: 2em;
+	font-weight: 100;
+	outline: none;
+	margin: 0;
+	padding: 5px 15px 10px;
+	transition: .2s;
+  
+	&:hover, &:active, &:disabled {
+		background: $textColor;
+		color: $black;
+	}
+	&:active {
+		outline: 2px solid $textColor;
+	}
+	&:focus {
+		border: 1px solid $textColor;
+	}
+	button + button {
+		margin-left: 3px;
+	}
+}

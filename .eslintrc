@@ -1,0 +1,25 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "rules": {
+    "camelcase": "off",
+    "no-const-assign": "warn",
+    "no-undef": "warn",
+    "no-unused-vars": "warn",
+    "no-unreachable": "warn",
+    "no-trailing-spaces": "warn",
+    "eol-last": "warn",
+    "quotes": ["warn", "single"],
+    "valid-typeof": "warn",
+    "indent": ["warn", 4]
+  
+  }
+}
