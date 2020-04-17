@@ -16,6 +16,7 @@
     "@hyperapp/logger": "^0.5.0",
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
+    "core-js": "^3.6.5",
     "hyperapp": "^1.2.10"
   },
   "devDependencies": {
